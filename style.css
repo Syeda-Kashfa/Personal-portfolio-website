@@ -10,6 +10,10 @@
     color: rgba(94, 59, 238, 1);
     
 }
+.bTn:hover{
+    color: #fff;
+    background:  rgba(94, 59, 238, 1);
+}
 .clr{
     color: rgba(40, 41, 56, 1);
     font-weight: bold;
@@ -23,9 +27,18 @@
     color: rgba(94, 59, 238, 1);
 }
 .headbtn button{
-    background: rgba(94, 59, 238, 1);}
+    background: rgba(94, 59, 238, 1);
+    color: #fff;
+}
+    
+
+.bt:hover{
+     color: rgba(94, 59, 238, 1);
+     background: #00000022;
+ 
+    }
 .cntnrclr{
-    background: rgba(245, 252, 255, 1);
+    background: rgb(245, 252, 255,1);
 
 }
 .card-title{
@@ -78,19 +91,6 @@
 
 }
 
-
-.frm input{
-    width: 300px;
-    
-}
-.drp input{
-    width: 700px;
-}
-.frmm input{
-    ;
-    border-color: blue;
-
-}
 .btn button{
     background: rgba(94, 59, 238, 1);
     padding: 10px 30px;
@@ -98,8 +98,20 @@
     border: none;
     border-radius: 5px;
 }
-.brd{
+.brd input{
  border: 1.33px solid rgba(94, 59, 238, 1);
+ border-radius: 5px;
+ 
+}
+.brd select{
+ border: 1.33px solid rgba(94, 59, 238, 1);
+ border-radius: 5px;
+ 
+}
+.brd textarea{
+ border: 1.33px solid rgba(94, 59, 238, 1);
+ border-radius: 5px;
+ 
 }
 .social a img{
     width: 30px;

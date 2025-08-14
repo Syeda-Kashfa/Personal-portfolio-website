@@ -13,8 +13,8 @@
 <body>
 
   <!-- Navbar -->
-  <nav class=" container navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
+  <nav class="  navbar navbar-expand-lg">
+    <div class="container">
       <a href="#"><img src="Images/Logo (1).png" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
   <div class="container cntnrclr col-xxl-8 px-4 py-2 mt-3">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6"> <img src="Images/profile.png" class="d-block mx-lg-auto img-fluid"
-          alt="Profile picture" width="700" height="500" loading="lazy"> </div>
+          alt="Profile picture" > </div>
       <div class="col-lg-6 py-2">
         <p class="clr">Hey, I am John</p>
         <h1 class="display-5 fw-bold  lh-1 mb-3 clr">I create <span class="clrchng">product design</span> and brand
@@ -51,7 +51,7 @@
         <p class="clR">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
           elementum tristique.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start  mt-5 headbtn"> <button type="button"
-            class="btn  text-light btn-lg px-4">Get in Touch</button> </div>
+            class="btn  btn-lg px-4 bt">Get in Touch</button> </div>
       </div>
     </div>
   </div>
@@ -179,79 +179,61 @@
     </div>
   </div>
   <!-- input section -->
-  <section class="container">
-    <p class="text-center clr">Get In Touch</p>
-    <h1 class="text-center clr fw-bold">Contact me</h1>
-    <p class="text-center clR">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <div class=" d-flex justify-content-center gap-2 ">
-      <div class="col-md-4">
-        <form action="">
-          <p>First Name </p><input type="text" class="col-md-12  brd">
-        </form>
-      </div>
-      <div class="col-md-4 ">
-        <form action="">
-          <p>Last Name </p><input type="text" class="col-md-12  brd ">
-        </form>
-      </div>
+   <section class="container">
+    <p class="text-center mt-5 clr">Get In Touch</p>
+    <h1 class="text-center clr mb-3 fw-bold">Contact me</h1>
+    <p class="text-center mb-3 clR">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <form class="row g-3 brd">
+    <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="inputEmail4" >
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Last Name</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" >
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Phone Number</label>
+    <input type="number" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12 ">
+    <label for="inputState" class="form-label">Choose a Topic</label>
+    <select id="inputState" class="form-select">
+      <option selected>Select One....</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class=" brd">
+    <p>Message</p>
+  <textarea class="form-control" placeholder="Type your message.." id="floatingTextarea2" style="height: 150px"></textarea>
+</div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
     </div>
-    <div class=" d-flex justify-content-center gap-2 ">
-      <div class="col-md-4">
-        <form action="">
-          <p>Email </p><input type="email" class="col-md-12  brd">
-        </form>
-      </div>
-      <div class="col-md-4 ">
-        <form action="">
-          <p>Phone Number </p><input type="number" class="col-md-12 brd ">
-        </form>
-      </div>
-    </div>
-    <div class=" d-flex justify-content-center">
-      <div class="col-md-8">
-        <form action="">
-          <p>Choose a Country</p><select name="" class="col-md-12 text-dark  brd">
-            <option value=""></option>
-            <option value="Pakistan">Pakistan</option>
-            <option value="Turkey">Turkey</option>
-            <option value="London">London</option>
-          </select>
-        </form>
-      </div>
-    </div>
-    <div class=" d-flex justify-content-center">
-      <div class="col-md-8">
-        <form action="">
-          <p>Message</p><textarea name="" class="col-md-12  brd" placeholder="Type your message"
-            class="col-md-12"></textarea>
-        </form>
-      </div>
-    </div>
-    </select></form>
-    </div>
-    </div>
-    <div class=" d-flex justify-content-center">
-      <div class="col-md-8">
-        <form action=""><label class="pe-2">i accept the terms</label><input type="checkbox" name=""></form>
-      </div>
-    </div>
-    <div class=" d-flex justify-content-center">
-      <div class="col-md-8 d-flex justify-content-center">
-        <form action="" class="btn"><button class="col-md-12">Submit</button>
-      </div>
-    </div>
+  </div>
+  <div class="d-grid gap-2 d-md-flex justify-content-md-center  mt-5 headbtn"> <button type="button"
+            class="btn bt btn-lg px-4">Submit</button> </div>
+</form>
   </section>
   <!-- Footer -->
   <section class="container mt-5 cntnrclr">
     <nav class="navbar navbar-expand-lg bg-body-tertiary pb-5 btm">
-      <div class="container-fluid">
+      <div class="container">
         <a href="#"><img src="Images/Logo (1).png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -309,7 +291,6 @@
     </div>
   </nav>
   </section>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
