@@ -1,3 +1,10 @@
+@font-face {
+    font-family: roboto;
+    src: url(Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family: roboto;
+}
 .bTn{
     border-color: rgba(94, 59, 238, 1);
     color: rgba(94, 59, 238, 1);
@@ -28,6 +35,9 @@
 
 
 }
+.btm{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.61);
+}
 .crd img{
     width: 100px;
     background: rgba(255, 255, 255, 1);
@@ -52,14 +62,45 @@
 .brdr{
     border-color: rgba(0, 107, 106, 1);
     padding: 0 40px;
+    background: rgba(245, 252, 255, 1);
+}
+.brdr p{
+    font-size: 12px;
 }
 .imag img{
-    width: 150px;
-    padding: 40px 0 40px 0;
+    width: 100px;
+    padding: 20px 0 20px 0;
 
 }
 .avatar img{
     width: 150px;
-    margin-top: 50px;
+    margin-top: 20px;
 
+}
+
+
+.frm input{
+    width: 300px;
+    
+}
+.drp input{
+    width: 700px;
+}
+.frmm input{
+    ;
+    border-color: blue;
+
+}
+.btn button{
+    background: rgba(94, 59, 238, 1);
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.brd{
+ border: 1.33px solid rgba(94, 59, 238, 1);
+}
+.social a img{
+    width: 30px;
 }
